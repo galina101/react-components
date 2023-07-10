@@ -25,10 +25,6 @@ function App() {
                     calling functions to get a return value, etc. We can also use curly braces to produce comments in JSX/TSX like the one you're reading right now. */}
 
 
-      {/* TODO: add the line below to the TSX code:
-
-        If you're still not convinced of the power of components, try adding it multiple times. */}
-
       <div className="todo-container">
 
 
@@ -37,13 +33,13 @@ function App() {
 
         <div className="section-container">
           <p>TODO: add the line below to the TSX code: {"<MyFunctionComponent></MyFunctionComponent>"}. If you're still not convinced of the power of components, try adding it multiple times.</p>
-          {/* SYNTAX GOES HERE */}
+          {/* SYNTAX GOES BELOW */}
 
         </div>
 
         <div className="section-container">
           <p>TODO: add the line below to the TSX code: {"<MyClassComponent></MyClassComponent>"}. If you're still not convinced of the power of components, try adding it multiple times.</p>
-          {/* SYNTAX GOES HERE */}
+          {/* SYNTAX GOES BELOW */}
 
         </div>
 
