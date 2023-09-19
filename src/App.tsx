@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 
 import DemoComponent from './components/demo-component/demo-component';
+import MyFunctionComponent from './components/function-component/function-component';
+import MyClassComponent from './components/class-component/class-component';
 
 function App() {
   return (
@@ -33,13 +35,13 @@ function App() {
 
         <div className="section-container">
           <p>TODO: add the line below to the TSX code: {"<MyFunctionComponent></MyFunctionComponent>"}. If you're still not convinced of the power of components, try adding it multiple times.</p>
-          {/* SYNTAX GOES BELOW */}
-
+          {/* SYNTAX GOES BELOW, ON THE FOLLOWING LINE */}
+          
         </div>
 
         <div className="section-container">
           <p>TODO: add the line below to the TSX code: {"<MyClassComponent></MyClassComponent>"}. If you're still not convinced of the power of components, try adding it multiple times.</p>
-          {/* SYNTAX GOES BELOW */}
+          {/* SYNTAX GOES BELOW, ON THE FOLLOWING LINE */}
 
         </div>
 
